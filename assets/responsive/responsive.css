@@ -1,0 +1,149 @@
+@media only screen and (min-width: 1023px) and (max-width: 1160px) {
+    html {
+        font-size: 57%;
+    }
+
+    /* logo */
+    .header__main-logo img {
+        width: 21%;
+    }
+
+    .header__main-logo span {
+        font-size: 4.2rem;
+    }
+
+    /* search */
+    .header__main-search-search input {
+        width: 420px;
+        font-size: 1.7rem;
+    }
+
+    .header__main-search-search input:hover {
+        font-size: 1.8rem;
+    }
+
+    /* đăng nhập giỏ hàng */
+    .dangnhap__giohang a {
+        width: 135px;
+    }
+}
+
+
+/* width <= 740 */
+@media only screen and (max-width: 46.1875em) {
+    
+}
+
+
+/* width >= 740 and width <= 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1024px){
+    html {
+        font-size: 55.5%;
+    }
+
+    /* header */
+    #header {
+        height: 130px;
+    }
+
+    .header__main-information a {
+        font-size: 0.9rem;
+    }
+
+    /* search */
+    .header__main-search {
+        width: 35%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 0px 2px;
+    }
+
+    .responsive__search {
+        display: block;
+    }
+
+    .header__main-search-search {
+        display: none;
+    }
+
+    /* đăng nhập giỏ hàng */
+    .dangnhap__giohang a {
+        width: 122px;
+    }
+
+    /* logo */
+    .header__main-logo {
+        display: none;
+    }
+
+    /* search responsive */
+    .search__responsive {
+        display: block;
+    }
+
+    /* giỏ hàng đăng nhập */
+    .header__main-logincart {
+        width: 35%;
+    }
+
+    /* menu */
+    .header__main-navbar {
+        display: none;
+    }
+
+    .header__mainbottom {
+        height: 45px;
+    }
+
+    /* banner */
+    .banner__main img {
+        margin-top: 160px;
+    }
+
+    /* display opacity */
+    #check-input:checked ~ .header__navbar-opacity {
+        display: block;
+    }
+
+    /* display navbar mobile */
+    #check-input:checked ~ .header__main-navbar-mobible {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    /* logo responsive header betwwen */
+    .logo__resposive {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 740px) and (max-width: 860px) {
+    .header__mainbettween {
+        border: 1px solid rgb(46, 46, 46);
+    }
+
+    .dangnhap__giohang {
+        display: none;
+    }
+
+    /* login gio hang */
+    .header__responsive--cart_login {
+        display: block  ;
+    }
+    
+    /* chữ chạy */
+    .header__main-information {
+        display: none;
+    }
+
+    /* banner */
+    .banner__main img {
+        margin-top: 125px ;
+    }
+
+    /* menu */
+    .header__mainbottom {
+        height: 40px;
+    }
+}
